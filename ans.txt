@@ -7,6 +7,22 @@ one of the main purpose for developing the DOM is to maintain a standard program
 
 ২) How will you select HTML elements using DOM? Name the DOM methods.
 
+
+??
+
+1) getElementsByTagName()
+2) getElementsByClassName()
+3) getElementById()
+4) querySelector()
+5) querySelectorAll()
+
 ৩) What is event bubble?
 
+The Event bubbling in JavaScript is a type of event propagation. The event triggers the innermost target element and consecutively triggers the parent element of the target element in the same hierarchy until it triggers the outermost element.
+
 ৪) What is a callback function and why will you use it?
+
+A JavaScript callback is a function which is to be executed after another function has finished execution.
+
+We need callback functions because many JavaScript actions are asynchronous, which means they don't really stop the program (or a function) from running until they're completed, as you're probably used to. Instead, it will execute in the background while the rest of the code runs.
+
